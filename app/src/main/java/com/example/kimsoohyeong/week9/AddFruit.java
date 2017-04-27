@@ -101,7 +101,7 @@ public class AddFruit extends LinearLayout implements View.OnClickListener {
         } else {
             Fruit setData = onAddListener.getData(pos);
             at.setText(setData.getName());
-            img.setImageResource(Fruit.imglist[setData.getImgno()]);
+            img.setImageResource(Fruit.imglist[imageno = setData.getImgno()]);
         }
     }
 
